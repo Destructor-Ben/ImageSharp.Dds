@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- TODO: allow publishing as a package -->
+    <AssemblyName>SixLabors.ImageSharp.Dds</AssemblyName>
+    <RootNamespace>SixLabors.ImageSharp.Dds</RootNamespace>
+
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="SixLabors.ImageSharp.Dds.Utilities" Static="true" />
+  </ItemGroup>
+</Project>
